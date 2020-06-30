@@ -1,0 +1,42 @@
+{
+  "name": "diplommern",
+  "version": "1.0.0",
+  "description": "Mern diplom",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Artem Lytkin"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Artem Lytkin",
+  "license": "ISC",
+  "dependencies": {
+    "@jest/globals": "^26.0.1",
+    "babel-jest": "^26.1.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.16",
+    "path": "^0.12.7",
+    "react-router-dom": "^5.2.0",
+    "shortid": "^2.2.15",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "eslint-plugin-react": "^7.20.0",
+    "nodemon": "^2.0.4"
+  }
+}

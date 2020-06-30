@@ -1,7 +1,7 @@
 const config = require('config')
 const mongoose = require('mongoose')
-const User = require('../diplomMERN/models/User')
-const Link = require('../diplomMERN/models/Link')
+const User = require('../models/User')
+const Link = require('../models/Link')
 
 const PORT = config.get('port') || 5000
 
